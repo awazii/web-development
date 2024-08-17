@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="my project.html" method="post">
+        <div> <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="enter you name" required list="name">
+            <data value=""></data>
+            <datalist  id="name">
+                <option value="awais">a</option>
+                <option value="bilal">b</option>
+                <option value="daud">c</option>
+            </datalist><br>
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="enter you password" required>
+        </div><br>
+        <div> Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <label for="textarea">Write your comments:</label><br>
+      
+            <textarea placeholder="Tere moo wich" name="test area" id="textarea" rows="10" cols="50">
+</textarea><br>
+</div>
+<label for="check">Are you Gay??</label>
+<input type="checkbox" id="check">
+<div>
+        </div>
+        <div>
+            <input type="file">
+        </div>
+        <div>
+            <label for="numbers">Enter numbers:</label>
+            <input type="number" name="quantity" id="numbers" placeholder="1 to 10" min="1" max="10">
+            <input type="range" name="volume" min="0" max="100">
+            <input type="search" name="query" placeholder="Search here">
+        </div>
+        <div>
+            <select name="country">
+                <option value="usa">United States</option>
+                <option value="can">Canada</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset">
+            
+
+        </div>
+    </form>
+
+</body>
+
+</html>

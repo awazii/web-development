@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <style>
+        h1,h2,u /* this is selector */
+/*this is declaration*/{
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+
+        b {
+            color: aqua;
+        }
+
+        details {
+            color: brown;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+
+        input:invalid {
+            border-color: red;
+        }
+
+        input:valid {
+            border-color: green;
+        }
+
+        #email {
+            min-width: 320px;
+            padding: 0.5rem 1rem;
+            line-height: 1;
+            font: inherit;
+            border: 1px solid var(--color-mid);
+            border-radius: 0.25rem;
+        }
+
+        .info {
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-block-start: 0f.5em;
+
+
+        }
+
+ :target {
+            background-color: rgb(238, 252, 129);
+
+
+
+        }
+
+        p.class {
+            color: rgb(13, 235, 255);
+            font-size: 16px;
+        }
+
+        .class:focus {
+            background-color: rgb(20, 232, 232);
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <H1> Css introduction</H1>
+        <a href="#target">Email address</a>
+
+    </head>
+    <main>
+        <article>
+            <details>
+                <summary>Readmore</summary>
+                <p><b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Vitae eaque ea, error quaerat, natus
+                    earum
+                    iure soluta explicabo, magni nesciunt velit maxime tenetur quidem adipisci? Autem nulla deleniti
+                    distinctio ad aliquid earum voluptate omnis dolore, maxime iste nobis assumenda, necessitatibus
+                    labore adipisci quod voluptates velit?
+                </p>
+            </details>
+            <details>
+                <summary>Names</summary>
+                <ul>
+                    <li>Awais
+                        <details>
+                            <summary>Age</summary>
+                            21
+                        </details>
+
+                    </li>
+                    <li>saad
+                        <details>
+                            <summary>Age</summary>
+                            21
+                        </details>
+
+                    </li>
+                    <li>habib
+                        <details>
+                            <summary>Age</summary>
+                            19
+                        </details>
+
+                    </li>
+                    <li>daud
+                        <details>
+                            <summary>Age</summary>
+                            28
+                        </details>
+
+                    </li>
+                </ul>
+            </details>
+
+        </article>
+        <form id="email">
+            <label for="email">Email address</label>
+            <input type="email" id="email" required placeholder="A valid email, like name@domain.com"
+                aria-describedby="emailinfo" />
+            <p class="info" id="emailinfo">Add a valid email address to see the state change</p>
+        </form>
+
+
+        <input id="target" type="email" required placeholder="A valid email, like name@domain.com" />
+        <p class="info" id="emailinfo">Add a valid email address to see the state change</p>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 [Awazii]. All rights reserved.</p>
+        <div class="class">
+            <h3>hello</h3>
+            <button class="class">focus</button>
+            <p class="class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia laudantium voluptate, illo
+                cum ea repellendus alias nisi error voluptatem aliquam omnis reiciendis quisquam dolorem quaerat
+                deserunt tempora quae labore rem.</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

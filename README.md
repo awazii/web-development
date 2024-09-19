@@ -1,2 +1,2 @@
 # web-development
-this is my learning projects
+this folder is my learning Journey how to start from stratch.

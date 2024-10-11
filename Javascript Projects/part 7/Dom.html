@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <button>Hello</button>
+    <button class="pangee">Hello1</button>
+    <button class="jsbutton">Hello</button>
+    <script>
+       console.log(document.querySelector('button').innerHTML)
+       document.querySelector('button').innerHTML="Changed"
+       let jsbutton=document.querySelector('.jsbutton')
+       jsbutton.innerText="changeeeeeeeeeee wwwew"
+       console.log(jsbutton.innerText)
+    //  let b= document.querySelector(".pangee").innerText="lora"
+    //  console.log(b.innerText) this is wrong
+    let b= document.querySelector(".pangee")
+    b.innerText="lora"//this is right.
+     console.log(b.innerText)
+        // document.title="DOM";
+        // console.log(document.body)
+        // document.body.innerHTML="Bund mara" 
+        // document.body.innerHTML="<button>Hello!</button>"
+
+    </script>
+</body>
+</html>

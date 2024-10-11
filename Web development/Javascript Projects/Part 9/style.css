@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+#morning #greeting{
+background-color: black;
+color: #f9f9f9;
+padding: 20px;
+font-size: 20px;
+width: 100%;
+
+}
+#morning #date-time div{
+background-color: black;
+color: #f9f9f9;
+padding: 20px;
+font-size: 20px;
+margin-top: 10px;
+width: 100%;
+}
+#morning{
+    width: 50vw;
+}
+
+
+#date-time{
+    padding-top: 0;
+}
+.calculator {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#display {
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(46, 47, 47);  
+    padding-right: 15px; 
+}
+.backspace{
+   
+    grid-row: 5/6;
+    grid-column: -3/-1;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: rgb(46, 47, 47);
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}

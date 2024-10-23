@@ -38,13 +38,13 @@
     gap: 15px;
 }
 .js-cart1{
-    border: none;
-    padding: 10px 20px;
-    background-color: rgb(230, 230, 230);
-    color: black;
-    font-size: 18px;
-  border-radius: 10px ;
-  font-weight: 550;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  font-size: 18px;
+border-radius: 10px ;
+font-weight: 550;
 }
 h3{
     font-size: 30px;

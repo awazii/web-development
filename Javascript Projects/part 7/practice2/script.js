@@ -5,7 +5,7 @@ let click1=()=>{
     if (!b) {
         a.classList.add("js-cart1")
     }
-  else if (b||d||f) {
+  else if (b) {
     a.classList.remove("js-cart1")
   }
 }
@@ -25,7 +25,7 @@ let click3=()=>{
     if (!b) {
         a.classList.add("js-cart1")
     }
-  else if (b||d||f) {
+  else if (b) {
     a.classList.remove("js-cart1")
   }
 }
